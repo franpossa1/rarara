@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #202124;
+  color: white;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+header {
+  
+
+  text-align: right;
+  padding: 10px;
+}
+form {
+  
+  margin: 0px auto auto auto;
+ 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.as_form {
+  width:70vw;
+  line-height: 4;
+  font-size: 20px;
+  padding: 20px;
+}
+.as_box1{
+  background-color: #202124;
+  box-shadow: 1px 1px 1px 3px;
+  margin-left: 10px;
+  width:50%;
+  color: white;
+  font-size: 20px;
+}
+.as_button{
+  color:white;
+  background-color:#4989F1;
+  font-size: 20px;
+  width: fit-content;
+  margin-left: auto;
+  padding: 10px;
+  
+}
+.ademas_list{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 20px;
+}
+.blokie{
+    display: block;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    left:60px;
+}
+/*
+clase para el google img
+
+
+.SDkEP {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}*/
+
+.linkis {
+  padding: 10px;
+}
+.rounded {
+  border-radius: 30px;
+  border: 1px solid white;
+  padding: 5px 20px;
+  background-color: #202124;
+  color: white;
+  margin:5px;
+}
+
+
+#foto-img {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(43, 43, 43);
+  border-radius: 50px;
+
+}
+#foto-img:hover {
+  background-color: rgb(102, 101, 101);
+}
+.mainlogo_google{
+    margin:  auto auto  0px auto;
+    font-size: 30px;
+}
+#foto_google{
+    width:300px;
+    height: 100px;
+
+}
+footer {
+
+  margin-top: auto;
+
+}
+.argentina_footer, .footer_nav_empresa, .footer_nav_contacto{
+
+padding:12px;
+background-color: #171717;
+
+};
+.footer_nav_empresa, .footer_nav_contacto{
+    
+    text-align: center;
+    };
+ 
